@@ -17,10 +17,6 @@ O projeto está dividido em três arquivos principais:
 2. **styles.css**: Estilos para o layout da página, incluindo cores, espaçamento, efeitos de foco e animações de transição.
 3. **scripts.js**: Script em JavaScript responsável pela lógica da conversão de temperatura e manipulação da exibição do resultado.
 
-## Pré-visualização
-
-![Preview da Calculadora](screenshot.png)
-
 ## Como Usar
 
 1. Faça o download ou clone este repositório.
