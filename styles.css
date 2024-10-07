@@ -1,0 +1,102 @@
+/* Estilos globais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f1f2;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.quadrado {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animação de hover no container */
+.quadrado:hover {
+    transform: translateY(-5px);
+}
+
+/* Título */
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Grupo do formulário */
+.conteudo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Rótulo */
+label {
+    color: #666666;
+    font-size: 14px;
+}
+
+/* Input de temperatura */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 8px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Efeito de foco no input */
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+/* Botão de converter */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+    min-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Opacidade crescente ao exibir o resultado */
+#resultado.hidden {
+    opacity: 0;
+}
+
+#resultado.visible {
+    opacity: 1;
+}
